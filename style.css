@@ -1,0 +1,45 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+#catalogue{
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5% 5%;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-top: 1%;
+}
+
+#submit{
+    width: 150px;
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    height: 40px;
+    padding: 1% 1%;
+    background: rgb(255, 242, 160);
+    border: dashed;
+}
